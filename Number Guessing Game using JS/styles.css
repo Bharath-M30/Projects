@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cadetblue;
+    color: darkred;
+    font-family: monospace;
+    font-size: 3em;
+}
