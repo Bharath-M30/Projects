@@ -1,0 +1,33 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#counter{
+    text-align: center;
+    display: block;
+    font-size: 10em;
+    color:rgb(8, 112, 30);
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: hsl(190, 99%, 50%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px hsl(190, 99%, 20%);
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin-left: 10px;
+}
+
+.buttons:hover{
+    background-color: rgb(70, 70, 219);
+    color: white;
+    box-shadow: 0 2px 3px rgba(70, 70, 219,0.5);
+}
