@@ -1,0 +1,45 @@
+.slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.slider img{
+    height: 500px;
+    width: 200px;
+    display: none;
+}
+
+img.displaySlide{
+    display: block;
+    animation: fade 0.3s ease-in-out ;
+}
+
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border:none;
+    padding: 10px;
+    font-size: 2rem;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+
+@keyframes fade{
+    from {opacity: 0.5;}
+    to {opacity: 1;}
+}
